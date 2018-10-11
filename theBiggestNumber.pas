@@ -16,5 +16,6 @@ begin
     writeln('Второе число - самое большое!');
   if((c>a)and(c>b))then
     writeln('Третье число - самое большое!');
-  {if((a=b) or (a=c) or )}{доработать}
+  if((a=b) or (b=c) or (c=a) or ((a=b) and (b=c) and (c=a)))then
+    writeln('Числа не должны быть равными!');
 end.
